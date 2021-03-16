@@ -10,7 +10,8 @@ Acknowledgments are at the end of this README
 Introduction
 ---------------
 
-Galaxy10 DECals is a dataset contains 21785 256x256 pixels colored galaxy images (g, r and z band) separated in 10 classes.
+Galaxy10 DECals is a dataset contains xxxxx 256x256 pixels colored galaxy images (g, r and z band) separated in 10 classes.
+
 Galaxy10 DECals images come from `DESI Legacy Imaging Surveys`_ and labels come from `Galaxy Zoo`_.
 
 ::
@@ -41,23 +42,24 @@ Most of the data reduction processes required Tensorflow 2.4 or above with NVIDI
 External Catalog Files
 --------------------------
 
-Galaxy Zoo Data Release 2 catalog file `gz2_hart16.csv` avaliable at https://data.galaxyzoo.org/
-Galaxy Zoo DECals catalog files `gz_decals_volunteers_ab.csv` and `gz_decals_volunteers_c.csv` avaliable at https://zenodo.org/record/4196267#.YE0oZ69KiUm
+Galaxy Zoo Data Release 2 catalog file ``gz2_hart16.csv`` avaliable at https://data.galaxyzoo.org/
+
+Galaxy Zoo DECals catalog files ``gz_decals_volunteers_ab.csv`` and ``gz_decals_volunteers_c.csv`` avaliable at https://zenodo.org/record/4196267#.YE0oZ69KiUm
 
 See acknowledgments for papers described those catalogs
 
 File Descriptions
 ------------------
 -   | `downloader_gzdes_ab_des_dr8.py`_
-    | Python script to download all Galaxy Zoo DECals campaign AB images (required `gz_decals_volunteers_ab.csv`)
+    | Python script to download all Galaxy Zoo DECals campaign AB images (required ``gz_decals_volunteers_ab.csv``)
 -   | `downloader_gzdes_c_des_dr8.py`_
-    | Python script to download all Galaxy Zoo DECals campaign C images (required `gz_decals_volunteers_c.csv`)
+    | Python script to download all Galaxy Zoo DECals campaign C images (required ``gz_decals_volunteers_c.csv``)
 -   | `downloader_sdssgz2_des_dr8.py`_
-    | Python script to download all Galaxy Zoo Data Release 2 images (required `gz2_hart16.csv`)
+    | Python script to download all Galaxy Zoo Data Release 2 images (required ``gz2_hart16.csv``)
 -   | `GZ2-SDSS-dataset.ipynb`_
-    | Jupyter Notebook to inspect Galaxy Zoo Data Release 2 catalog `gz2_hart16.csv`
+    | Jupyter Notebook to inspect Galaxy Zoo Data Release 2 catalog ``gz2_hart16.csv``
 -   | `GZ-DECaLS-dataset.ipynb`_
-    | Jupyter Notebook to inspect Galaxy Zoo DECals catalogs `gz_decals_volunteers_ab.csv` and `gz_decals_volunteers_c.csv`
+    | Jupyter Notebook to inspect Galaxy Zoo DECals catalogs ``gz_decals_volunteers_ab.csv`` and ``gz_decals_volunteers_c.csv``
 -   | `CCD-Artifacts.ipynb`_
     | Jupyter Notebook to deal with CCD artifacts
 -   | `Size-Estimate.ipynb`_
