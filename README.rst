@@ -32,7 +32,7 @@ For more information on the original Galaxy Zoo 2 classification tree: `Galaxy Z
 
 .. _Galaxy Zoo Decision Tree: https://data.galaxyzoo.org/gz_trees/gz_trees.html
 
-.. image:: readme.png
+.. image:: galaxy10_examples.png
 
 System Requirment
 -------------------------
@@ -76,7 +76,7 @@ File Descriptions
 .. _Size-Estimate.ipynb: Size-Estimate.ipynb
 .. _Compile-Galaxy10-DES.ipynb: Compile-Galaxy10-DES.ipynb
 
-Download Galaxy10 (Work in progress)
+Download Galaxy10
 ---------------------------------------
 
 Galaxy10.h5: xx
@@ -85,38 +85,6 @@ SHA256: xx
 
 Size: xx MB (210,234,548 bytes)
 
-Load with astroNN (Work in progress)
----------------------------------------
-
-.. code-block:: python
-
-    from astroNN.datasets import galaxy10
-
-
-OR Load with Python & h5py (Work in progress)
-----------------------------------------------
-
-You should download Galaxy10.h5 first and open python at the same location and run the following to open it:
-
-.. code-block:: python
-
-    import h5py
-
-Split into train and test set (Work in progress)
---------------------------------------------------
-
-.. code-block:: python
-
-    import numpy as np
-
-Lookup Galaxy10 Class (Work in progress)
---------------------------------------------
-
-You can lookup Galaxy10 class to the corresponding name by
-
-.. code-block:: python
-
-    from astroNN.datasets.galaxy10 import galaxy10cls_lookup
 
 Galaxy10 Dataset Authors
 -------------------------
