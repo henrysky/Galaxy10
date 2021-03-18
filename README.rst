@@ -7,6 +7,15 @@ This page is the improved Galaxy10 using DECals still work in programm
 
 Acknowledgments are at the end of this README
 
+Download Galaxy10
+---------------------------------------
+
+Galaxy10.h5: https://astro.utoronto.ca/~hleung/shared/Galaxy10_DECals.h5  (For testing only, not finalize, still many works need to be done)
+
+SHA256: E7ED36C55E099E500AB5D9B50C0635AC761BE3D9F31398187C127559A2A27C46
+
+Size: 2.54 GB
+
 Introduction
 ---------------
 
@@ -33,11 +42,6 @@ For more information on the original Galaxy Zoo 2 classification tree: `Galaxy Z
 .. _Galaxy Zoo Decision Tree: https://data.galaxyzoo.org/gz_trees/gz_trees.html
 
 .. image:: galaxy10_examples.png
-
-System Requirment
--------------------------
-
-Most of the data reduction processes required Tensorflow 2.4 or above with NVIDIA GPU for reasonable performance. Otherwise just `python >3.6`, `astropy`, `h5py`, `matplotlib`
 
 External Catalog Files
 --------------------------
@@ -77,14 +81,12 @@ File Descriptions
 .. _Size-Estimate.ipynb: Size-Estimate.ipynb
 .. _Compile-Galaxy10-DES.ipynb: Compile-Galaxy10-DES.ipynb
 
-Download Galaxy10
----------------------------------------
+System Requirment
+-------------------------
 
-Galaxy10.h5: https://astro.utoronto.ca/~hleung/shared/Galaxy10_DECals.h5  (For testing only, not finalize, still many works need to be done)
+If you want to run the notebooks yourself, most of the data reduction processes requiredTensorflow 2.4 or above with NVIDIA GPU to complete in reasonable time. 
 
-SHA256: E7ED36C55E099E500AB5D9B50C0635AC761BE3D9F31398187C127559A2A27C46
-
-Size: 2.54 GB
+Otherwise just `python >3.6`, `astropy`, `h5py`, `matplotlib`
 
 
 Galaxy10 Dataset Authors
