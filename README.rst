@@ -10,23 +10,23 @@ Acknowledgments are at the end of this README
 Introduction
 ---------------
 
-Galaxy10 DECals is a dataset contains xxxxx 256x256 pixels colored galaxy images (g, r and z band) separated in 10 classes.
+Galaxy10 DECals is a dataset contains 17736 256x256 pixels colored galaxy images (g, r and z band) separated in 10 classes.
 
 Galaxy10 DECals images come from `DESI Legacy Imaging Surveys`_ and labels come from `Galaxy Zoo`_.
 
 ::
 
-    Galaxy10 dataset (xxxxx images)
-    ├── Class 0 (xx images): yy
-    ├── Class 1 (xx images): yy
-    ├── Class 2 (xx images): yy
-    ├── Class 3 (xx images): yy
-    ├── Class 4 (xx images): yy
-    ├── Class 5 (xx images): yy
-    ├── Class 6 (xx images): yy
-    ├── Class 7 (xx images): yy
-    ├── Class 8 (xx images): yy
-    └── Class 9 (x images): yy
+    Galaxy10 dataset (17736 images)
+    ├── Class 0 (1081 images): Disturbed Galaxies
+    ├── Class 1 (1853 images): Merging Galaxies
+    ├── Class 2 (2645 images): Round Smooth Galaxies
+    ├── Class 3 (2027 images): In-between Round Smooth Galaxies
+    ├── Class 4 ( 334 images): Cigar Shaped Smooth Galaxies
+    ├── Class 5 (2043 images): Barred Spiral Galaxies
+    ├── Class 6 (1829 images): Unbarred Tight Spiral Galaxies
+    ├── Class 7 (2628 images): Unbarred Loose Spiral Galaxies
+    ├── Class 8 (1423 images): Edge-on Galaxies without Bulge
+    └── Class 9 (1873 images): Edge-on Galaxies with Bulge
 
 For more information on the original Galaxy Zoo 2 classification tree: `Galaxy Zoo Decision Tree`_
 
@@ -50,12 +50,13 @@ See acknowledgments for papers described those catalogs
 
 File Descriptions
 ------------------
+
 -   | `downloader_gzdes_ab_des_dr8.py`_
-    | Python script to download all Galaxy Zoo DECals campaign AB images (required ``gz_decals_volunteers_ab.csv``)
+    | Python script to download all Galaxy Zoo DECals campaign AB images (requires ``gz_decals_volunteers_ab.csv`` and long time to run)
 -   | `downloader_gzdes_c_des_dr8.py`_
-    | Python script to download all Galaxy Zoo DECals campaign C images (required ``gz_decals_volunteers_c.csv``)
+    | Python script to download all Galaxy Zoo DECals campaign C images (requires ``gz_decals_volunteers_c.csv`` and long time to run)
 -   | `downloader_sdssgz2_des_dr8.py`_
-    | Python script to download all Galaxy Zoo Data Release 2 images (required ``gz2_hart16.csv``)
+    | Python script to download all Galaxy Zoo Data Release 2 images (requires ``gz2_hart16.csv`` and long time to run)
 -   | `GZ2-SDSS-dataset.ipynb`_
     | Jupyter Notebook to inspect Galaxy Zoo Data Release 2 catalog ``gz2_hart16.csv``
 -   | `GZ-DECaLS-dataset.ipynb`_
@@ -79,20 +80,20 @@ File Descriptions
 Download Galaxy10
 ---------------------------------------
 
-Galaxy10.h5: xx
+Galaxy10.h5: https://astro.utoronto.ca/~hleung/shared/Galaxy10_DECals.h5  (For testing only, not finalize, still many works need to be done)
 
-SHA256: xx
+SHA256: E7ED36C55E099E500AB5D9B50C0635AC761BE3D9F31398187C127559A2A27C46
 
-Size: xx MB (210,234,548 bytes)
+Size: 2.54 GB
 
 
 Galaxy10 Dataset Authors
 -------------------------
 
--  | **Henry Leung** - Compile the Galaxy10 - henrysky_
+-  | **Henry Leung** - henrysky_
    | Astronomy Student, University of Toronto
 
--  | **Jo Bovy** - Supervisor of Henry Leung - jobovy_
+-  | **Jo Bovy** - jobovy_
    | Astronomy Professor, University of Toronto
 
 .. _henrysky: https://github.com/henrysky
