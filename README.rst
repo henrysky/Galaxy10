@@ -75,7 +75,7 @@ http://nbviewer.jupyter.org/github/henrysky/Galaxy10/tree/master/
 -   | `CCD-Artifacts.ipynb`_
     | Jupyter Notebook to deal with CCD artifacts
 -   | `Size-Estimate.ipynb`_
-    | Jupyter Notebook to galaxy size
+    | Jupyter Notebook to estimate galaxy size
 -   | `Compile-Galaxy10-DES.ipynb`_
     | Jupyter Notebook to compile Galaxy10 DECals
 
