@@ -7,15 +7,15 @@ The original Galaxy10 dataset was created with Galaxy Zoo (GZ) Data Release 2 wh
 were selected in 10 broad classes using volunteer votes. GZ later utilized images from `DESI Legacy Imaging Surveys`_ (DECals) with much better resolution and image quality.
 Galaxy10 DECals has combined all three (GZ DR2 with DECals images instead of SDSS images and  DECals campaign ab, c) results in ~441k of unique galaxies covered by DECals
 where ~18k of those images were selected in 10 broad classes using volunteer votes with more rigorous filtering. Galaxy10 DECals had its 10 broad classes tweaked a bit so that
-each class is more distinct from each other and `Edge-on Disk with Boxy Bulge` class with only 17 images in original Galaxy10 was abandoned. The source code for this dataset is released
+each class is more distinct from each other and ``Edge-on Disk with Boxy Bulge`` class with only 17 images in original Galaxy10 was abandoned. The source code for this dataset is released
 under this repositary so you are welcome to play around if you like, otherwise you can use the compiled Galaxy10 DECals with dowload link below.
 
 Download Galaxy10 DECals
 --------------------------
 
-`Galaxy10_DECals.h5`: https://astro.utoronto.ca/~hleung/shared/Galaxy10_DECals.h5  (not yet finalized)
+``Galaxy10_DECals.h5``: https://astro.utoronto.ca/~hleung/shared/Galaxy10_DECals.h5  (not yet finalized)
 
-SHA256: `3454CB96582D6FEFA115777562FA9CFC67234D9CE151A6981315DB6E19D74915`
+SHA256: ``3454CB96582D6FEFA115777562FA9CFC67234D9CE151A6981315DB6E19D74915``
 
 Size: 2.54 GB
 
@@ -23,7 +23,7 @@ Introduction
 ---------------
 
 Galaxy10 DECals is a dataset contains 17736 256x256 pixels colored galaxy images (g, r and z band) separated in 10 classes. 
-Galaxy10 DECals have columns `images`, `ans`, `ra`, `dec`, `redshift`.
+Galaxy10 DECals have columns ``images``, ``ans``, ``ra``, ``dec``, ``redshift``.
 
 Galaxy10 DECals images come from `DESI Legacy Imaging Surveys`_ and labels come from `Galaxy Zoo`_.
 
@@ -45,7 +45,7 @@ For more information on the original Galaxy Zoo 2 classification tree: `Galaxy Z
 
 .. _Galaxy Zoo Decision Tree: https://data.galaxyzoo.org/gz_trees/gz_trees.html
 
-.. image:: galaxy10_examples.png
+.. image:: readme.jpg
 
 External Catalog Files
 --------------------------
