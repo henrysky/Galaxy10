@@ -1,29 +1,29 @@
 Galaxy10 DECals Dataset (Work in progress)
 ============================================
 
-For original Galaxy10, look here: https://astronn.readthedocs.io/en/latest/galaxy10.html
+Welcome! Galaxy10 DECals is a much improved version of our original `Galaxy10`_.
 
-This page is the improved Galaxy10 using DECals still work in programm
+The original Galaxy10 dataset was created with Galaxy Zoo (GZ) Data Release 2 where volunteers classify ~270k of SDSS galaxy images where ~22k of those images 
+were selected in 10 broad classes using volunteer votes. GZ later utilized images from `DESI Legacy Imaging Surveys`_ (DECals) with much better resolution and image quality.
+Galaxy10 DECals has combined all three (GZ DR2 with DECals images instead of SDSS images and  DECals campaign ab, c) results in ~441k of unique galaxies covered by DECals
+where ~18k of those images were selected in 10 broad classes using volunteer votes with more rigorous filtering. Galaxy10 DECals had its 10 broad classes tweaked a bit so that
+each class is more distinct from each other and `Edge-on Disk with Boxy Bulge` class with only 17 images in original Galaxy10 was abandoned. The source code for this dataset is released
+under this repositary so you are welcome to play around if you like, otherwise you can use the compiled Galaxy10 DECals with dowload link below.
 
-Acknowledgments are at the end of this README
+Download Galaxy10 DECals
+--------------------------
 
-If Github has issue (or too slow) to load the Jupyter Notebooks, you can go
-http://nbviewer.jupyter.org/github/henrysky/Galaxy10/tree/master/
+`Galaxy10_DECals.h5`: https://astro.utoronto.ca/~hleung/shared/Galaxy10_DECals.h5  (not yet finalized)
 
-
-Download Galaxy10
----------------------------------------
-
-Galaxy10.h5: https://astro.utoronto.ca/~hleung/shared/Galaxy10_DECals.h5  (For testing only, not finalize, still many works need to be done)
-
-SHA256: E7ED36C55E099E500AB5D9B50C0635AC761BE3D9F31398187C127559A2A27C46
+SHA256: `3454CB96582D6FEFA115777562FA9CFC67234D9CE151A6981315DB6E19D74915`
 
 Size: 2.54 GB
 
 Introduction
 ---------------
 
-Galaxy10 DECals is a dataset contains 17736 256x256 pixels colored galaxy images (g, r and z band) separated in 10 classes.
+Galaxy10 DECals is a dataset contains 17736 256x256 pixels colored galaxy images (g, r and z band) separated in 10 classes. 
+Galaxy10 DECals have columns `images`, `ans`, `ra`, `dec`, `redshift`.
 
 Galaxy10 DECals images come from `DESI Legacy Imaging Surveys`_ and labels come from `Galaxy Zoo`_.
 
@@ -59,6 +59,9 @@ See acknowledgments for papers described those catalogs
 File Descriptions
 ------------------
 
+If Github has issue (or too slow) loading the Jupyter Notebooks, you can go
+http://nbviewer.jupyter.org/github/henrysky/Galaxy10/tree/master/
+
 -   | `downloader_gzdes_ab_des_dr8.py`_
     | Python script to download all Galaxy Zoo DECals campaign AB images (requires ``gz_decals_volunteers_ab.csv`` and long time to run)
 -   | `downloader_gzdes_c_des_dr8.py`_
@@ -84,14 +87,6 @@ File Descriptions
 .. _CCD-Artifacts.ipynb: CCD-Artifacts.ipynb
 .. _Size-Estimate.ipynb: Size-Estimate.ipynb
 .. _Compile-Galaxy10-DES.ipynb: Compile-Galaxy10-DES.ipynb
-
-System Requirment
--------------------------
-
-If you want to run the notebooks yourself, most of the data reduction processes requiredTensorflow 2.4 or above with NVIDIA GPU to complete in reasonable time. 
-
-Otherwise just `python >3.6`, `astropy`, `h5py`, `matplotlib`
-
 
 Galaxy10 Dataset Authors
 -------------------------
@@ -122,3 +117,4 @@ The Legacy Surveys consist of three individual and complementary projects: the D
 .. _Lintott et al. 2011: https://ui.adsabs.harvard.edu/abs/2011MNRAS.410..166L/abstract
 .. _Walmsley M. et al. 2021: https://ui.adsabs.harvard.edu/abs/2021arXiv210208414W/abstract
 .. _Dey A. et al., 2019: https://ui.adsabs.harvard.edu/abs/2019AJ....157..168D/abstract
+.. _Galaxy10: https://astronn.readthedocs.io/en/latest/galaxy10.html
