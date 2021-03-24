@@ -17,7 +17,7 @@ under this repositary so you are welcome to play around if you like, otherwise y
 Download Galaxy10 DECals
 --------------------------
 
-``Galaxy10_DECals.h5``: https://astro.utoronto.ca/~hleung/shared/Galaxy10_DECals.h5
+``Galaxy10_DECals.h5``: https://astro.utoronto.ca/~hleung/shared/Galaxy10/Galaxy10_DECals.h5
 
 SHA256: ``19AEFC477C41BB7F77FF07599A6B82A038DC042F889A111B0D4D98BB755C1571``
 
@@ -27,7 +27,8 @@ Introduction
 ---------------
 
 Galaxy10 DECals is a dataset contains 17736 256x256 pixels colored galaxy images (g, r and z band) separated in 10 classes. 
-``Galaxy10_DECals.h5`` have columns ``images``, ``ans``, ``ra``, ``dec``, ``redshift`` and ``pxscale`` in unit of arcsecond per pixel
+``Galaxy10_DECals.h5`` have columns ``images`` with shape ``(17736, 256, 256, 3)``, ``ans``, ``ra``, ``dec``, 
+``redshift`` and ``pxscale`` in unit of arcsecond per pixel
 
 Galaxy10 DECals images come from `DESI Legacy Imaging Surveys`_ and labels come from `Galaxy Zoo`_.
 
