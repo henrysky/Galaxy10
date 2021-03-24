@@ -1,5 +1,9 @@
-Galaxy10 DECals Dataset (Work in progress)
-============================================
+Galaxy10 DECals Dataset
+==========================
+
+.. image:: https://img.shields.io/github/license/henrysky/Galaxy10.svg
+   :target: https://github.com/henrysky/Galaxy10/blob/master/LICENSE
+   :alt: GitHub license
 
 Welcome! Galaxy10 DECals is a much improved version of our original `Galaxy10`_.
 
@@ -13,9 +17,9 @@ under this repositary so you are welcome to play around if you like, otherwise y
 Download Galaxy10 DECals
 --------------------------
 
-``Galaxy10_DECals.h5``: https://astro.utoronto.ca/~hleung/shared/Galaxy10_DECals.h5  (not yet finalized)
+``Galaxy10_DECals.h5``: https://astro.utoronto.ca/~hleung/shared/Galaxy10_DECals.h5
 
-SHA256: ``3454CB96582D6FEFA115777562FA9CFC67234D9CE151A6981315DB6E19D74915``
+SHA256: ``19AEFC477C41BB7F77FF07599A6B82A038DC042F889A111B0D4D98BB755C1571``
 
 Size: 2.54 GB
 
@@ -23,7 +27,7 @@ Introduction
 ---------------
 
 Galaxy10 DECals is a dataset contains 17736 256x256 pixels colored galaxy images (g, r and z band) separated in 10 classes. 
-Galaxy10 DECals have columns ``images``, ``ans``, ``ra``, ``dec``, ``redshift``.
+``Galaxy10_DECals.h5`` have columns ``images``, ``ans``, ``ra``, ``dec``, ``redshift`` and ``pxscale`` in unit of arcsecond per pixel
 
 Galaxy10 DECals images come from `DESI Legacy Imaging Surveys`_ and labels come from `Galaxy Zoo`_.
 
@@ -54,7 +58,7 @@ Galaxy Zoo Data Release 2 (`Lintott et al. 2011`_) catalog file ``gz2_hart16.csv
 
 Galaxy Zoo DECals (`Walmsley M. et al. 2021`_) catalog files ``gz_decals_volunteers_ab.csv`` and ``gz_decals_volunteers_c.csv`` avaliable at https://zenodo.org/record/4196267#.YE0oZ69KiUm
 
-See acknowledgments for papers described those catalogs
+See acknowledgments for papers describing those catalogs
 
 File Descriptions
 ------------------
@@ -63,11 +67,11 @@ If Github has issue (or too slow) loading the Jupyter Notebooks, you can go
 http://nbviewer.jupyter.org/github/henrysky/Galaxy10/tree/master/
 
 -   | `downloader_gzdes_ab_des_dr8.py`_
-    | Python script to download all Galaxy Zoo DECals campaign AB images (requires ``gz_decals_volunteers_ab.csv`` and long time to run)
+    | Python script to download all Galaxy Zoo DECals campaign AB images from DECals DR8 (requires ``gz_decals_volunteers_ab.csv`` and long time to run)
 -   | `downloader_gzdes_c_des_dr8.py`_
-    | Python script to download all Galaxy Zoo DECals campaign C images (requires ``gz_decals_volunteers_c.csv`` and long time to run)
+    | Python script to download all Galaxy Zoo DECals campaign C images from DECals DR8 (requires ``gz_decals_volunteers_c.csv`` and long time to run)
 -   | `downloader_sdssgz2_des_dr8.py`_
-    | Python script to download all Galaxy Zoo Data Release 2 images (requires ``gz2_hart16.csv`` and long time to run)
+    | Python script to download all Galaxy Zoo Data Release 2 images from DECals DR8 (requires ``gz2_hart16.csv`` and long time to run)
 -   | `GZ2-SDSS-dataset.ipynb`_
     | Jupyter Notebook to inspect Galaxy Zoo Data Release 2 catalog ``gz2_hart16.csv``
 -   | `GZ-DECaLS-dataset.ipynb`_
