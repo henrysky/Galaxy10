@@ -8,11 +8,12 @@ Galaxy10 DECals Dataset
 Welcome! Galaxy10 DECals is a much improved version of our original `Galaxy10`_.
 
 The original Galaxy10 dataset was created with Galaxy Zoo (GZ) Data Release 2 where volunteers classify ~270k of SDSS galaxy images where ~22k of those images 
-were selected in 10 broad classes using volunteer votes. GZ later utilized images from `DESI Legacy Imaging Surveys`_ (DECals) with much better resolution and image quality.
-Galaxy10 DECals has combined all three (GZ DR2 with DECals images instead of SDSS images and  DECals campaign ab, c) results in ~441k of unique galaxies covered by DECals
-where ~18k of those images were selected in 10 broad classes using volunteer votes with more rigorous filtering. Galaxy10 DECals had its 10 broad classes tweaked a bit so that
-each class is more distinct from each other and ``Edge-on Disk with Boxy Bulge`` class with only 17 images in original Galaxy10 was abandoned. The source code for this dataset is released
-under this repositary so you are welcome to play around if you like, otherwise you can use the compiled Galaxy10 DECals with dowload link below.
+were selected in 10 broad classes using volunteer votes. GZ later utilized images from `DESI Legacy Imaging Surveys`_ (DECals) with much better resolution and 
+image quality. Galaxy10 DECals has combined all three (GZ DR2 with images from DESI Legacy Imaging Surveys instead of SDSS images and  DECals campaign ab, c) 
+results in ~441k of unique galaxies covered by DECals where ~18k of those images were selected in 10 broad classes using volunteer votes with more rigorous 
+filtering. Galaxy10 DECals had its 10 broad classes tweaked a bit so that each class is more distinct from each other and ``Edge-on Disk with Boxy Bulge`` 
+class with only 17 images in original Galaxy10 was abandoned. The source code for this dataset is released under this repositary so you are welcome to play 
+around if you like, otherwise you can use the compiled Galaxy10 DECals with dowload link below.
 
 Download Galaxy10 DECals
 --------------------------
@@ -30,7 +31,8 @@ Galaxy10 DECals is a dataset contains 17736 256x256 pixels colored galaxy images
 ``Galaxy10_DECals.h5`` have columns ``images`` with shape ``(17736, 256, 256, 3)``, ``ans``, ``ra``, ``dec``, 
 ``redshift`` and ``pxscale`` in unit of arcsecond per pixel
 
-Galaxy10 DECals images come from `DESI Legacy Imaging Surveys`_ and labels come from `Galaxy Zoo`_.
+Galaxy10 DECals images come from `DESI Legacy Imaging Surveys`_ which includes the Beijing-Arizona Sky Survey (BASS), 
+the DECam Legacy Survey (DECaLS) and the Mayall z-band Legacy Survey and labels come from `Galaxy Zoo`_.
 
 ::
 
@@ -67,6 +69,10 @@ File Descriptions
 If Github has issue (or too slow) loading the Jupyter Notebooks, you can go
 http://nbviewer.jupyter.org/github/henrysky/Galaxy10/tree/master/
 
+-   | `Galaxy10_coord.csv`_ and `Galaxy10_coord.csv.vot`
+    | Galaxy10 DESCals coordinates, you can just use these files to easily cross-match external catalog
+-   | `downloader_gzdes_ab_des_dr8.py`_
+    | Python script to download all Galaxy Zoo DECals campaign AB images from DECals DR8 (requires ``gz_decals_volunteers_ab.csv`` and long time to run)
 -   | `downloader_gzdes_ab_des_dr8.py`_
     | Python script to download all Galaxy Zoo DECals campaign AB images from DECals DR8 (requires ``gz_decals_volunteers_ab.csv`` and long time to run)
 -   | `downloader_gzdes_c_des_dr8.py`_
@@ -84,6 +90,8 @@ http://nbviewer.jupyter.org/github/henrysky/Galaxy10/tree/master/
 -   | `Compile-Galaxy10-DES.ipynb`_
     | Jupyter Notebook to compile Galaxy10 DECals
 
+.. _Galaxy10_coord.csv: Galaxy10_coord.csv
+.. _Galaxy10_coord.csv.vot: Galaxy10_coord.csv.vot
 .. _downloader_gzdes_ab_des_dr8.py: downloader_gzdes_ab_des_dr8.py
 .. _downloader_gzdes_c_des_dr8.py: downloader_gzdes_c_des_dr8.py
 .. _downloader_sdssgz2_des_dr8.py: downloader_sdssgz2_des_dr8.py
