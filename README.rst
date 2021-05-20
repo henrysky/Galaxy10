@@ -69,7 +69,7 @@ File Descriptions
 If Github has issue (or too slow) loading the Jupyter Notebooks, you can go
 http://nbviewer.jupyter.org/github/henrysky/Galaxy10/tree/master/
 
--   | `Galaxy10_coord.csv`_ and `Galaxy10_coord.csv.vot`
+-   | `Galaxy10_coord.csv`_ and `Galaxy10_coord.csv.vot`_
     | Galaxy10 DESCals coordinates, you can just use these files to easily cross-match external catalog
 -   | `downloader_gzdes_ab_des_dr8.py`_
     | Python script to download all Galaxy Zoo DECals campaign AB images from DECals DR8 (requires ``gz_decals_volunteers_ab.csv`` and long time to run)
