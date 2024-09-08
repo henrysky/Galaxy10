@@ -23,4 +23,4 @@ jobs:
           args: --base . --verbose --no-progress './*.rst' './*.ipynb'
           format: markdown
           output: /tmp/result.md
-          fail: false
+          fail: true
