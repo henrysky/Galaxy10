@@ -1,0 +1,9 @@
+numpy
+pandas
+astropy
+astroquery
+matplotlib
+h5py
+tensorflow>2.16
+astroNN
+mw_plot

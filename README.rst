@@ -68,6 +68,10 @@ See acknowledgments for papers describing those catalogs
 File Descriptions
 ------------------
 
+The code generally requires ``Python>=3.9`` and the following Python libraries outlined in `requirements.txt`_.
+
+.. _requirements.txt: requirements.txt
+
 If Github has issue (or too slow) loading the Jupyter Notebooks, you can go
 http://nbviewer.jupyter.org/github/henrysky/Galaxy10/tree/master/
 

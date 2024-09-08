@@ -1,9 +1,6 @@
 import urllib.request
 import numpy as np
-from multiprocessing.dummy import Pool as ThreadPool
 import multiprocessing
-import os
-import subprocess
 from functools import partial
 
 
