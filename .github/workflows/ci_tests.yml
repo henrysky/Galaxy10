@@ -20,7 +20,7 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --base . --verbose --no-progress './*.rst' './*.ipynb'
+          args: --base $(pwd) --verbose --no-progress './*.rst' './*.ipynb'
           format: markdown
           output: /tmp/result.md
           fail: true
