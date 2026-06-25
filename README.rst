@@ -73,7 +73,7 @@ The code generally requires ``Python>=3.9`` and the following Python libraries o
 .. _requirements.txt: requirements.txt
 
 If Github has issue (or too slow) loading the Jupyter Notebooks, you can go
-http://nbviewer.jupyter.org/github/henrysky/Galaxy10/tree/master/
+https://nbviewer.jupyter.org/github/henrysky/Galaxy10/tree/master/
 
 -   | `Galaxy10_coord.csv`_ and `Galaxy10_coord.csv.vot`_
     | Galaxy10 DESCals coordinates, you can just use these files to easily cross-match external catalog
