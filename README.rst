@@ -73,7 +73,7 @@ The code generally requires ``Python>=3.9`` and the following Python libraries o
 .. _requirements.txt: requirements.txt
 
 If Github has issue (or too slow) loading the Jupyter Notebooks, you can go
-https://nbviewer.jupyter.org/github/henrysky/Galaxy10/tree/master/
+https://nbviewer.org/github/henrysky/Galaxy10/tree/master/
 
 -   | `Galaxy10_coord.csv`_ and `Galaxy10_coord.csv.vot`_
     | Galaxy10 DESCals coordinates, you can just use these files to easily cross-match external catalog
@@ -131,7 +131,7 @@ Galaxy Zoo is described in `Lintott et al. 2008`_, the GalaxyZoo Data Release 2 
 The Legacy Surveys consist of three individual and complementary projects: the Dark Energy Camera Legacy Survey (DECaLS; Proposal ID #2014B-0404; PIs: David Schlegel and Arjun Dey), the Beijing-Arizona Sky Survey (BASS; NOAO Prop. ID #2015A-0801; PIs: Zhou Xu and Xiaohui Fan), and the Mayall z-band Legacy Survey (MzLS; Prop. ID #2016A-0453; PI: Arjun Dey). DECaLS, BASS and MzLS together include data obtained, respectively, at the Blanco telescope, Cerro Tololo Inter-American Observatory, NSF’s NOIRLab; the Bok telescope, Steward Observatory, University of Arizona; and the Mayall telescope, Kitt Peak National Observatory, NOIRLab. The Legacy Surveys project is honored to be permitted to conduct astronomical research on Iolkam Du’ag (Kitt Peak), a mountain with particular significance to the Tohono O’odham Nation.
 
 .. _DESI Legacy Imaging Surveys: https://www.legacysurvey.org/
-.. _Galaxy Zoo: https://www.galaxyzoo.org/
+.. _Galaxy Zoo: https://www.zooniverse.org/projects/zookeeper/galaxy-zoo
 .. _Lintott et al. 2008: https://ui.adsabs.harvard.edu/abs/2008MNRAS.389.1179L/abstract
 .. _Lintott et al. 2011: https://ui.adsabs.harvard.edu/abs/2011MNRAS.410..166L/abstract
 .. _Walmsley M. et al. 2021: https://ui.adsabs.harvard.edu/abs/2021arXiv210208414W/abstract
